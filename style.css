@@ -1,0 +1,15 @@
+.btn-primary:hover{
+    color: gold;
+    background-color: orangered;
+}
+
+canvas{
+    animation-name: CHANGER;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes CHANGER{
+    from {box-shadow: 1px 1px 10000px rgb(25, 138, 25);}
+    to {box-shadow: 1px 1px 10000px rgb(44, 145, 163);}
+}
